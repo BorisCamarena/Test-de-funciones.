@@ -44,11 +44,11 @@ def Evaluar( x1 , x2 , x3 ) :
 
   Eval = np.matrix( )
 
-  Eval_dif = np.linalg.inv( Eval )
+  Eval_diff = np.linalg.inv( Eval )
 
   # Nos regresa la matriz H.
 
-  return [ Eval , Eval_dif ] 
+  return [ Eval , Eval_diff ] 
 
 # Elegimos un punto a evaluar.
 
