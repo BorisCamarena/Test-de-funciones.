@@ -97,6 +97,10 @@ while k < n : # Defina el n que quiere utilizar.
 
   # Hacemos el cambio.
 
+  # La diferencia entre el método de Newton y Newton estacionario es que sustituimos 
+
+  # A_k por el Hessiano.
+
   X = np.matrix( Eval_diff ).T + R
 
   # Obtenemos los valores la matriz con float.
