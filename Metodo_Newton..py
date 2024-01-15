@@ -85,7 +85,7 @@ print( " -------------------------------------------------")
 
 # Defina el n, para el cual se cumple la restriccion k menor que n.
 
-while k < n : # Defina el n que quiere utilizar.
+while r1 < n : # Defina el n que quiere utilizar.
 
   Eval , Eval_diff = Evaluar( x1 , x2 , x3 )
 
@@ -113,7 +113,7 @@ while k < n : # Defina el n que quiere utilizar.
 
   # Haciendo uso del siguiente formato.
 
-  print( " {0:1d} \t {1:1.4f} \t {2:1.4f} \t {3:1.4f} \t  {4:1.4f}  ".format( k , x1 , x2 , x3 , error ) )
+  print( " {0:1d} \t {1:1.4f} \t {2:1.4f} \t {3:1.4f} \t  {4:1.4f}  ".format( r1 , x1 , x2 , x3 , error ) )
 
 
 
