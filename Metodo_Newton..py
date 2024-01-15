@@ -101,7 +101,7 @@ while k < n : # Defina el n que quiere utilizar.
 
   # Calculamos el error.
 
-  error = sqrt( ( x1 - x0[ 0 ] ) **2 + ( x2 - x0 ) **2 + ( x3 - x0 ) **2 )
+  error = sqrt( ( x1 - x0[ 0 ] ) **2 + ( x2 - x0[ 1 ] ) **2 + ( x3 - x0[ 2 ] ) **2 )
 
   # Definimos nuevamente nuestro punto inicial.
 
